@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="/home/hadoop/Downloads/Bigdata-master/DataSimilarityAnalyser/Required Jars/antlr-3.1.2-1.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/Downloads/Bigdata-master/DataSimilarityAnalyser/Required Jars/avro-1.8.0.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/Downloads/Bigdata-master/DataSimilarityAnalyser/Required Jars/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/Downloads/Bigdata-master/DataSimilarityAnalyser/Required Jars/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/Downloads/Bigdata-master/DataSimilarityAnalyser/Required Jars/derby.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/Downloads/Bigdata-master/DataSimilarityAnalyser/Required Jars/derbyLocale_cs.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/Downloads/Bigdata-master/DataSimilarityAnalyser/Required Jars/derbyLocale_de_DE.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/Downloads/Bigdata-master/DataSimilarityAnalyser/Required Jars/derbyLocale_es.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/Downloads/Bigdata-master/DataSimilarityAnalyser/Required Jars/derbyLocale_fr.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/Downloads/Bigdata-master/DataSimilarityAnalyser/Required Jars/derbyLocale_hu.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/Downloads/Bigdata-master/DataSimilarityAnalyser/Required Jars/derbyLocale_it.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/Downloads/Bigdata-master/DataSimilarityAnalyser/Required Jars/derbyLocale_ja_JP.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/Downloads/Bigdata-master/DataSimilarityAnalyser/Required Jars/derbyLocale_ko_KR.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/Downloads/Bigdata-master/DataSimilarityAnalyser/Required Jars/derbyLocale_pl.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/Downloads/Bigdata-master/DataSimilarityAnalyser/Required Jars/derbyLocale_pt_BR.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/Downloads/Bigdata-master/DataSimilarityAnalyser/Required Jars/derbyLocale_ru.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/Downloads/Bigdata-master/DataSimilarityAnalyser/Required Jars/derbyLocale_zh_CN.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/Downloads/Bigdata-master/DataSimilarityAnalyser/Required Jars/derbyLocale_zh_TW.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/Downloads/Bigdata-master/DataSimilarityAnalyser/Required Jars/hadoop-annotations-2.7.2.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/Downloads/Bigdata-master/DataSimilarityAnalyser/Required Jars/hadoop-assemblies-2.7.2.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/Downloads/Bigdata-master/DataSimilarityAnalyser/Required Jars/hadoop-auth-2.7.2.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/Downloads/Bigdata-master/DataSimilarityAnalyser/Required Jars/hadoop-client-2.7.2.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/Downloads/Bigdata-master/DataSimilarityAnalyser/Required Jars/hadoop-common-2.7.2.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/Downloads/Bigdata-master/DataSimilarityAnalyser/Required Jars/hadoop-core-1.2.1.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/Downloads/Bigdata-master/DataSimilarityAnalyser/Required Jars/hadoop-dist-2.7.2.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/Downloads/Bigdata-master/DataSimilarityAnalyser/Required Jars/hadoop-hdfs-2.7.2.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/Downloads/Bigdata-master/DataSimilarityAnalyser/Required Jars/hadoop-hdfs-nfs-2.7.2.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/Downloads/Bigdata-master/DataSimilarityAnalyser/Required Jars/hadoop-kms-2.7.2-classes.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/Downloads/Bigdata-master/DataSimilarityAnalyser/Required Jars/hadoop-mapreduce-client-core-0.23.1.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/Downloads/Bigdata-master/DataSimilarityAnalyser/Required Jars/hadoop-minikdc-2.7.2.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/Downloads/Bigdata-master/DataSimilarityAnalyser/Required Jars/hadoop-nfs-2.7.2.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/Downloads/Bigdata-master/DataSimilarityAnalyser/Required Jars/httpclient-4.3-beta1.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/Downloads/Bigdata-master/DataSimilarityAnalyser/Required Jars/httpcore-4.3.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/Downloads/Bigdata-master/DataSimilarityAnalyser/Required Jars/jdo2-api-2.1.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/Downloads/Bigdata-master/DataSimilarityAnalyser/Required Jars/jpox-core-1.2.2.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/Downloads/Bigdata-master/DataSimilarityAnalyser/Required Jars/jpox-rdbms-1.2.2.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/Downloads/Bigdata-master/DataSimilarityAnalyser/Required Jars/libfb303-0.9.0.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/Downloads/Bigdata-master/DataSimilarityAnalyser/Required Jars/libthrift-0.9.1.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/Downloads/Bigdata-master/DataSimilarityAnalyser/Required Jars/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/Downloads/Bigdata-master/DataSimilarityAnalyser/Required Jars/org.apache.commons.collections.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/Downloads/Bigdata-master/DataSimilarityAnalyser/Required Jars/slf4j-api-1.7.19.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/Downloads/Bigdata-master/DataSimilarityAnalyser/Required Jars/slf4j-simple-1.7.19.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/hive/apache-hive-2.0.0-bin/lib/hive-accumulo-handler-2.0.0.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/hive/apache-hive-2.0.0-bin/lib/hive-ant-2.0.0.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/hive/apache-hive-2.0.0-bin/lib/hive-beeline-2.0.0.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/hive/apache-hive-2.0.0-bin/lib/hive-cli-2.0.0.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/hive/apache-hive-2.0.0-bin/lib/hive-common-2.0.0.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/hive/apache-hive-2.0.0-bin/lib/hive-contrib-2.0.0.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/hive/apache-hive-2.0.0-bin/lib/hive-exec-2.0.0.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/hive/apache-hive-2.0.0-bin/lib/hive-hbase-handler-2.0.0.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/hive/apache-hive-2.0.0-bin/lib/hive-hplsql-2.0.0.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/hive/apache-hive-2.0.0-bin/lib/hive-hwi-2.0.0.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/hive/apache-hive-2.0.0-bin/lib/hive-jdbc-2.0.0.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/hive/apache-hive-2.0.0-bin/lib/hive-jdbc-2.0.0-standalone.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/hive/apache-hive-2.0.0-bin/lib/hive-orc-2.0.0.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/hive/apache-hive-2.0.0-bin/lib/hive-service-2.0.0.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/Downloads/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/hive/apache-hive-2.0.0-bin/lib/commons-codec-1.4.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/hive/apache-hive-2.0.0-bin/lib/commons-collections-3.2.2.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/hive/apache-hive-2.0.0-bin/lib/commons-compiler-2.7.6.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/hive/apache-hive-2.0.0-bin/lib/commons-compress-1.9.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/hive/apache-hive-2.0.0-bin/lib/commons-dbcp-1.4.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/hive/apache-hive-2.0.0-bin/lib/commons-el-1.0.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/hive/apache-hive-2.0.0-bin/lib/commons-httpclient-3.0.1.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/hive/apache-hive-2.0.0-bin/lib/commons-lang3-3.1.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/hive/apache-hive-2.0.0-bin/lib/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/hive/apache-hive-2.0.0-bin/lib/commons-math-2.2.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/hive/apache-hive-2.0.0-bin/lib/commons-pool-1.5.4.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/hive/apache-hive-2.0.0-bin/lib/commons-vfs2-2.0.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/Downloads/commons-configuration-1.9.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/hive/apache-hive-2.0.0-bin/lib/datanucleus-core-4.1.6.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/hive/apache-hive-2.0.0-bin/lib/datanucleus-rdbms-4.1.7.jar"/>
+	<classpathentry kind="lib" path="/home/hadoop/Downloads/javaml-0.1.5.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

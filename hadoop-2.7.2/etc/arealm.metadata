@@ -1,0 +1,16 @@
+geom INT no
+gid INT yes
+x1 INT no
+y1 INT no
+x2 INT no
+y2 INT no
+statefp INT no
+ansicode INT no
+areaid INT no
+fullname STRING no
+mtfcc STRING no
+aland INT no
+awater INT no
+intptlat INT no
+intptlon INT no
+
