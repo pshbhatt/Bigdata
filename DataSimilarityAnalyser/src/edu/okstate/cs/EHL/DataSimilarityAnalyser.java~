@@ -860,74 +860,17 @@ public static void main(String[] args) throws IOException, ClassNotFoundExceptio
 				 *                       It will compute the similarity between the datasets
 				 */
 				
-			//Computes and returns the similarity score between two dataset items based on data usage value
-				public static double computeSimilarity(String DataSet1,String DataSet2) throws ClassNotFoundException, SQLException, IOException
+				public static void computeSimilarity(String DS1, String DS2) throws ClassNotFoundException, SQLException, IOException
 				{
-					double score = 0.0;
-					computeContentSimilarity(DataSet1,DataSet2);	
-					computeUsageSimilarity(DataSet1,DataSet2);
-					
-					int x = getClusterUsageValue("DUPA","EHL_DSA",DataSet1);
-					int y = getClusterUsageValue("DUPA","EHL_DSA",DataSet2);
-					
-					//if both datasets belong to same cluster
-					if(x == y)
-					{
-						score = getScoreValue("DCSA","EHL_DSA",DataSet1,DataSet2);
-					}
-					
-					else
-						score = 0.0;
-							
-				  return score;		
-				}
-				//returns the similarity score value between two datasets if exists
-				public static double getScoreValue(String tableName,String schemaName,String Dataset_1,String Dataset_2) throws ClassNotFoundException, SQLException
-				{
-					double score_value= 0.0;
-
-					// Register driver and create driver instance
-				     Class.forName(driverName);
-					
-					HiveConf cons = new HiveConf();
-					cons.addResource(new Path(HIVESITEPATH));
-					Connection con = DriverManager.getConnection("jdbc:hive2://localhost:10000/default","","");
-					   Statement stmt = con.createStatement();
-					   stmt.executeQuery("Use " + schemaName);
-					   ResultSet res = stmt.executeQuery("SELECT * FROM "+tableName+" WHERE DATASET1 LIKE '"+Dataset_1+"' AND "
-					   + "DATASET2 LIKE '"+Dataset_2+"'");
-					   while(res.next()){
-					   	score_value = res.getDouble("SCORE");
-					   	//score_value = res.getDouble(2);
-
-					   }
-					   con.close();
-					  return score_value;
-				}
-
-				
-				//returns to which cluster a dataset belongs to
-				public static int getClusterUsageValue(String tableName,String schemaName,String Dataset_name) throws ClassNotFoundException, SQLException
-				{
-					int cluster_value= 0;
-
-					// Register driver and create driver instance
-				     Class.forName(driverName);
-					
-					HiveConf cons = new HiveConf();
-					cons.addResource(new Path(HIVESITEPATH));
-					Connection con = DriverManager.getConnection("jdbc:hive2://localhost:10000/default","","");
-					   Statement stmt = con.createStatement();
-					   stmt.executeQuery("Use " + schemaName);
-					   ResultSet res = stmt.executeQuery("SELECT * FROM "+tableName+" WHERE DATASET LIKE '"+Dataset_name+"'");
-					   while(res.next()){
-					   	cluster_value = res.getInt("CLUSTER");
-					   	//score_value = res.getInt(1);
-
-					   }
-					   con.close();
-					  return cluster_value;
-					
+					// It will call the function specified in 7th Specification
+					computeContentSimilarity(DS1,DS2);                                   
+					// It will call the function specified in 11th Specification
+					try {
+						computeUsageSimilarity(DS1,DS2);
+					} catch (IOException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}                                
 				}
 				
 				
@@ -965,7 +908,7 @@ public static void retrieveSimilarity(String DS1, String DS2) throws ClassNotFou
 	    stmt.executeQuery("Use EHL_DSA");
 	    ResultSet res = stmt.executeQuery("SELECT * FROM DUPA");
 	    while(res.next()){
-	    	dupa.write(res.getString(1) + " " + res.getString(2));
+	    	dupa.write(res.getString(1) + " " + res.getString(2) + " " + res.getString(3));
 	    }
 	    ResultSet res1= stmt.executeQuery("SELECT * FROM DCSA");
 	    while(res.next()){
